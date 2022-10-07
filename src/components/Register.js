@@ -21,7 +21,7 @@ function Register() {
     e.preventDefault();
     if (name !== "" && lastname !== "" && user !== "" && password !== "" && email !== "") {
       try {
-        let res = await fetch("http://localhost:3000/app/signup", {
+        let res = await fetch("https://instaya.herokuapp.com/app/signup", {
           method: "POST",
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

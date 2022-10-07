@@ -22,7 +22,7 @@ function Session() {
     e.preventDefault();
     if (user !== "" && password !== "") {
       try {
-        let res = await fetch("http://localhost:3000/app/signin", {
+        let res = await fetch("https://instaya.herokuapp.com/app/signin", {
           method: "POST",
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -34,7 +34,7 @@ function Session() {
         console.log(resJson)
         if (res.status === 200) {
           localStorage.setItem("token", JSON.stringify(resJson.accestoken));
-          let response = await fetch(`http://localhost:3000/app/user-data/${user}`, {
+          let response = await fetch(`https://instaya.herokuapp.com/app/user-data/${user}`, {
             method: "GET"
           });
           let responsejson = await response.json();

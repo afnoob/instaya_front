@@ -15,7 +15,7 @@ function Orderlist() {
   const fetchData = useCallback(async () => {
     const author = localStorage.getItem("id");
     const idstr = author.replace(/["']/g, "");
-    const data = await fetch(`http://localhost:3000/app/order-data/${idstr}`)
+    const data = await fetch(`https://instaya.herokuapp.com/app/order-data/${idstr}`)
     console.log(idstr)
     const orders = await data.json()
     setOrdenes(orders)

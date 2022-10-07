@@ -42,7 +42,7 @@ function CreateForm() {
             const author = localStorage.getItem("id");
             const authstr = author.replace(/["']/g, "");
             console.log(authstr)
-            let res = await fetch("http://localhost:3000/app/create-order", {
+            let res = await fetch("https://instaya.herokuapp.com/app/create-order", {
               method: "POST",
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
