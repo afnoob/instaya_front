@@ -2,10 +2,9 @@
     margin-top: 2vw;
     margin-left: 15vw;
     margin-right: 15vw;
-    min-height: 70vw;
     max-width: 100%;
     float: none;
-    padding-bottom: 2vw;
+    padding-bottom: 25vw;
 }
 
 html, body {
@@ -24,6 +23,6 @@ html, body {
         min-height: 300vw;
         max-width: 100%;
         float: none;
-        padding-bottom: 2vw;
+        padding-bottom: 5vw;
     }
 }
