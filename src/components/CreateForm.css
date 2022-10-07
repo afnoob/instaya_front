@@ -19,7 +19,7 @@
 .createorder {
     max-width: 100%;
     max-height: 500vw;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
     background-size: cover;
 }
 
@@ -28,5 +28,5 @@
 }
 
 html, body{
-    min-height: 60vw;
+    min-height: 50vw;
 }
