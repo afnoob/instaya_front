@@ -46,9 +46,8 @@
     }
     .form2 {
         min-width: 100vw;
-        min-height: 50vw;
+        max-height: 180vw;
         margin: 0rem auto;
-        max-height: 150vw;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
         border-radius: 6px;
         padding: 1rem;
@@ -84,6 +83,6 @@
     }
     
     .back {
-        padding-top: 0.3vw;
+        padding-top: 0.9vw;
     }
 }
