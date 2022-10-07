@@ -25,7 +25,7 @@ function Orderlist() {
 
   return (
     <div className='list'>
-        <Table striped bordered hover>
+        <Table striped bordered hover className='tabla'>
           <thead>
             <tr>
               <th>Número de seguimiento</th>
