@@ -18,11 +18,11 @@
 }
 
 .sesion {
-    font-size: 1vw;
+
 }
 
 .register {
-    font-size: 1vw;
+    font-size: 100vh;
     padding-top: 0.2vw;
 }
 
@@ -57,17 +57,23 @@
     }
     
     .sesion {
-        font-size: 1vw;
+        font-size: 10vh;
+        min-height: 6vw;
+        min-width: 20vw;
     }
-    
+    .buttontext{
+        font-size: 5vw;
+    }
     .register {
-        font-size: 1vw;
+        font-size: 20vw;
         padding-top: 0.2vw;
+        min-height: 6vw;
+        min-width: 20vw;
     }
     
     .logo {
-        height: 5vw;
-        margin-left: 11.5vw;
+        min-height: 15vw;
+        padding-left: 30.5vw;
     }
     
     .title h3{
