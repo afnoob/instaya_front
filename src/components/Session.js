@@ -82,7 +82,6 @@ function Session() {
           <div>
             <Button className='register' variant="secondary" type="button" onClick={handleRoute}>
               <div className='buttontext'>Regístrate</div>
-              
             </Button>
           </div> 
           </Form>

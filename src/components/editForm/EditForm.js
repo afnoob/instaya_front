@@ -188,18 +188,18 @@ function EditForm() {
                                     
                 
                 <Button className='sesion' variant="primary" type="submit" form="editForm">
-                    Editar Orden
+                <div className='buttontext'>Editar Orden</div>
                 </Button>
                 
                 <div className='back'>
                     <Button className='sesion' variant="danger" type="button" onClick={cancelOrder}>
-                        Cancelar Orden
+                    <div className='buttontext'>Cancelar Orden</div>
                     </Button>
                 </div>
     
                 <div className='back'>
                     <Button className='sesion' variant="secondary" type="button" onClick={handleRoute}>
-                        Volver
+                    <div className='buttontext'>Volver</div>
                     </Button>
                 </div>
                 </Form>
