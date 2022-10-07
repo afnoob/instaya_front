@@ -1,0 +1,18 @@
+.list {
+    margin-top: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    min-height: 100%;
+    max-height: 200;
+    max-width: 100%;
+    float: none;
+    padding-bottom: 2vw;
+}
+
+html, body {
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    min-height: 100%;
+
+}
