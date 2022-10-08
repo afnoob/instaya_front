@@ -33,12 +33,13 @@ function Session() {
         let resJson = await res.json();
         console.log(resJson)
         if (res.status === 200) {
-          localStorage.setItem("token", JSON.stringify(resJson.accestoken));
           let response = await fetch(`https://instaya.herokuapp.com/app/user-data/${user}`, {
             method: "GET"
           });
           let responsejson = await response.json();
           console.log(resJson);
+          localStorage.setItem("isAuthenticated", "true")
+          localStorage.setItem("token", JSON.stringify(resJson.accestoken));
           localStorage.setItem("id", JSON.stringify(responsejson));
           handleRoute2();
         } else {
